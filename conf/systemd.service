@@ -7,8 +7,10 @@ Wants=network-online.target
 [Service]
 Type=notify
 NotifyAccess=main
-User=__APP__
-Group=__APP__
+User=root
+Group=root
+#User=__APP__
+#Group=__APP__
 
 WorkingDirectory=__INSTALL_DIR__
 EnvironmentFile=-__INSTALL_DIR__/.env
