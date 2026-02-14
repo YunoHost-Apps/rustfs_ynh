@@ -12,7 +12,7 @@ Group=__APP__
 
 WorkingDirectory=__INSTALL_DIR__
 EnvironmentFile=-__INSTALL_DIR__/.env
-ExecStart=__INSTALL_DIR__/rustfs \$RUSTFS_VOLUMES
+ExecStart=__INSTALL_DIR__/rustfs __DATA_DIR__
 
 LimitNOFILE=1048576
 LimitNPROC=32768
