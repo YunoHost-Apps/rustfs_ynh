@@ -11,6 +11,7 @@ It shall NOT be edited by hand.
 S3-compatible high-performance object storage
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://rustfs.com/)
+[![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://play.rustfs.com/rustfs/console/auth/login/)
 [![Version: 1.0.0~ynh1](https://img.shields.io/badge/Version-1.0.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/rustfs/)
 
 <div align="center">
