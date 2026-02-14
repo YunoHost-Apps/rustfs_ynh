@@ -14,6 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "Apache-2.0"
 website = "https://rustfs.com/"
+demo = "https://play.rustfs.com/rustfs/console/auth/login/"
 admindoc = "https://docs.rustfs.com/installation/"
 code = "https://github.com/rustfs/rustfs"
 
