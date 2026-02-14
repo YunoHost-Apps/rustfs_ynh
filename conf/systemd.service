@@ -12,7 +12,7 @@ Group=__APP__
 
 WorkingDirectory=__INSTALL_DIR__
 EnvironmentFile=-__INSTALL_DIR__/.env
-ExecStart=__INSTALL_DIR__/rustfs \$RUSTFS_VOLUMES
+ExecStart=__INSTALL_DIR__/rustfs __DATA_DIR__
 
 LimitNOFILE=1048576
 LimitNPROC=32768
@@ -40,8 +40,8 @@ RestrictSUIDSGID=true
 RestrictRealtime=true
 
 # service log configuration
-StandardOutput=append:/var/logs/rustfs/rustfs.log
-StandardError=append:/var/logs/rustfs/rustfs-err.log
+#StandardOutput=append:/var/logs/__APP__/__APP__.log
+#StandardError=append:/var/logs/__APP__/__APP__-err.log
 
 [Install]
 WantedBy=multi-user.target
