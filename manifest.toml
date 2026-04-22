@@ -46,8 +46,8 @@ ram.runtime = "50M"
     [resources.sources.main]
     rename = "rustfs"
     in_subdir = false
-    amd64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.0-alpha.83/rustfs-linux-x86_64-musl-latest.zip"
-    amd64.sha256 = "6b0c57e8c77f1b15c5d039cebe215dddc718df5a06f68cf37e643a92049ee9c1"
+    amd64.url = "https://github.com/rustfs/rustfs/archive/refs/tags/1.0.0-alpha.98.tar.gz"
+    amd64.sha256 = "32586e9bd7f9970f4ec2f07a42ed61d7294defe5596f7698a515f3bfd1cdcfef"
 
     autoupdate.strategy = "latest_github_release"
 
