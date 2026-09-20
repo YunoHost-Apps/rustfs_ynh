@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+RustFS est un système de stockage d'objets distribué et hautement performant, développé en Rust, l'un des langages de programmation les plus appréciés au monde. RustFS allie la simplicité de MinIO à la sécurité mémoire et aux performances brutes de Rust. Il offre une large compatibilité avec l'API S3 pour les fonctionnalités prises en charge, est entièrement open source et est optimisé pour les lacs de données, l'IA et les charges de travail liées au big data.
