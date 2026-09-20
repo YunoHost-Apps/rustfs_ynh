@@ -15,7 +15,7 @@ maintainers = ["eric_G"]
 license = "Apache-2.0"
 website = "https://rustfs.com/"
 demo = "https://play.rustfs.com/rustfs/console/auth/login/"
-admindoc = "https://docs.rustfs.com/installation/"
+admindoc = "https://docs.rustfs.com/"
 code = "https://github.com/rustfs/rustfs"
 
 [integration]
