@@ -7,7 +7,7 @@ name = "RustFS"
 description.en = "S3-compatible high-performance object storage"
 description.fr = "Stockage d'objets haute performance compatible S3"
 
-version = "1.0.0~ynh1"
+version = "1.0.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -49,10 +49,10 @@ ram.runtime = "50M"
     [resources.sources.main]
     rename = "rustfs"
     in_subdir = false
-    amd64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.0//rustfs-linux-x86_64-gnu-v1.0.0.zip"
-    amd64.sha256 = "2d5059501745682664c3d345b22274b66079c952fbec7e1ce66980ef4515cd42"
-    arm64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.0/rustfs-linux-aarch64-gnu-v1.0.0.zip"
-    arm64.sha256 = "780e832d68e0148dc042f05647796056fe014e7cf1a8f195e3e83b22a3bb988f"
+    amd64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.1//rustfs-linux-x86_64-gnu-v1.0.1.zip"
+    amd64.sha256 = "9742e183cb0dfb0d48fa909797af572fe47b7f827569036baa4156e0d3958ee5"
+    arm64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.1/rustfs-linux-aarch64-gnu-v1.0.1.zip"
+    arm64.sha256 = "1dcfb6ae59702b8e90394157e57450ed219515a1cc63525f730d4e120e9be7b9"
     autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
