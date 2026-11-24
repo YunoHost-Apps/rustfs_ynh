@@ -4,6 +4,10 @@ test_format = 1.0
 
 [default]
 
+[default.curl_tests]
+
+    console.path = "/rustfs/console"
+    
     # ------------
     # Tests to run
     # ------------
