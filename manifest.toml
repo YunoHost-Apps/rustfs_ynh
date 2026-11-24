@@ -65,9 +65,11 @@ ram.runtime = "50M"
     main.url = "/"
     main.allowed = "visitors"
     main.auth_header = false
-    console.url = "/console"
+    main.show_tile = false
+    console.url = "/rustfs/console"
     console.allowed = "admins"
     console.auth_header = false
+    console.show_tile = true
 
     [resources.ports]
     main.default = 9000
