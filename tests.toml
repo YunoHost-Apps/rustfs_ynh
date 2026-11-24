@@ -6,7 +6,7 @@ test_format = 1.0
 
 [default.curl_tests]
 
-    console.path = "/rustfs/console"
+    console.path = "/rustfs/console/auth/login/"
     
     # ------------
     # Tests to run
