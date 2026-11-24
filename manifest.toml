@@ -49,10 +49,10 @@ ram.runtime = "50M"
     [resources.sources.main]
     rename = "rustfs"
     in_subdir = false
-    amd64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.1//rustfs-linux-x86_64-gnu-v1.0.1.zip"
-    amd64.sha256 = "9742e183cb0dfb0d48fa909797af572fe47b7f827569036baa4156e0d3958ee5"
-    arm64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.1/rustfs-linux-aarch64-gnu-v1.0.1.zip"
-    arm64.sha256 = "1dcfb6ae59702b8e90394157e57450ed219515a1cc63525f730d4e120e9be7b9"
+    amd64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.6/rustfs-linux-x86_64-musl-v1.0.6.zip"
+    amd64.sha256 = "a4d109a09857c04bf5d11b2cec0fbbf0887819b9392e5d46d7d153dae6a1398f"
+    arm64.url = "https://github.com/rustfs/rustfs/releases/download/1.0.6/rustfs-linux-aarch64-musl-v1.0.6.zip"
+    arm64.sha256 = "dcbe86dbb0c521cb6738f72bb36a2d056866667d3d137c2118ee7e2cc9475855"
     autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
@@ -63,6 +63,13 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    main.allowed = "visitors"
+    main.auth_header = false
+    main.show_tile = false
+    console.url = "/rustfs/console"
+    console.allowed = "admins"
+    console.auth_header = false
+    console.show_tile = true
 
     [resources.ports]
     main.default = 9000
