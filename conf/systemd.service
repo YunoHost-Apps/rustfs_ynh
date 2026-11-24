@@ -28,7 +28,7 @@ TimeoutStopSec=30s
 
 NoNewPrivileges=true
 
-ProtectHome=true
+#ProtectHome=true
 ReadWritePaths=__DATA_DIR__ /var/log/__APP__
 PrivateTmp=true
 PrivateDevices=true
