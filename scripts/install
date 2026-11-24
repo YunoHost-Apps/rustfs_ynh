@@ -7,6 +7,7 @@
 source /usr/share/yunohost/helpers
 
 secret_key=$(ynh_string_random --length=128)
+ynh_app_setting_set --key=secret_key --value=$secret_key
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -44,7 +45,7 @@ yunohost service add "$app" --description="S3-compatible high-performance object
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-#ynh_systemctl --service="$app" --action="start"
+ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT
