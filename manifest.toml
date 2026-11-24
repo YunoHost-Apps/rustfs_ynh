@@ -63,6 +63,11 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    main.allowed = "visitors"
+    main.auth_header = false
+    console.url = "/console"
+    console.allowed = "admins"
+    console.auth_header = false
 
     [resources.ports]
     main.default = 9000
