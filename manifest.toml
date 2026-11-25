@@ -7,7 +7,7 @@ name = "RustFS"
 description.en = "S3-compatible high-performance object storage"
 description.fr = "Stockage d'objets haute performance compatible S3"
 
-version = "1.0.1~ynh1"
+version = "1.0.1~ynh2"
 
 maintainers = ["eric_G"]
 
